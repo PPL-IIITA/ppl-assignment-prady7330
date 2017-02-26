@@ -197,7 +197,7 @@ public class ques_1_algo {
            b.set_budget(ThreadLocalRandom.current().nextInt(1000, 10000 + 1));
            b.set_intl_level(ThreadLocalRandom.current().nextInt(20, 80 + 1));
            b.set_min_att_req(ThreadLocalRandom.current().nextInt(5, 50 + 1));
-           write_boys.write_to_boys(i+1+","+b.get_name()+","+b.get_att()+","+b.get_budget()+","+b.get_intl_level()+","+b.get_min_att_req());
+           write_boys2.write_to_boys(i+1+","+b.get_name()+","+b.get_att()+","+b.get_budget()+","+b.get_intl_level()+","+b.get_min_att_req());
            boys.add(b);
        }
        for(int i=0;i<15;++i){
@@ -206,7 +206,7 @@ public class ques_1_algo {
            g.set_att(ThreadLocalRandom.current().nextInt(5, 50 + 1));
            g.set_intl_level(ThreadLocalRandom.current().nextInt(20, 80 + 1));
            g.set_main_budget(ThreadLocalRandom.current().nextInt(1000, 10000 + 1));
-           write_girls.write_to_girls(i+1+","+g.get_name()+","+g.get_att()+","+g.get_main_budget()+","+g.get_intl_level());
+           write_girls2.write_to_girls(i+1+","+g.get_name()+","+g.get_att()+","+g.get_main_budget()+","+g.get_intl_level());
            girls.add(g);
        }
        for(girl g: girls){
