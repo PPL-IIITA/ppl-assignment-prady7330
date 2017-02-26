@@ -220,7 +220,7 @@ public class ques_1_algo {
                     c.add(co);
                     b.set_status(1);
                     String timeStamp = new SimpleDateFormat("yyyy/MM/dd HH_mm_ss").format(Calendar.getInstance().getTime());
-                    write_file.write_to_file(b.get_name()+" gets committed to "+g.get_name()+" at"+ timeStamp);
+                    write_file2.write_to_file(b.get_name()+" gets committed to "+g.get_name()+" at"+ timeStamp);
                 }
                 if(flag==1)
                     break;
