@@ -49,7 +49,7 @@ public class main8 {
         }
         int i=0;
         for(couple c:couples)
-            System.out.println("total gifts of a couple "+(++i)+" -"+c.get_gift().size());
+            System.out.println("total gifts of a couple "+(++i)+"- "+c.get_gift().size());
         
     }
 }
